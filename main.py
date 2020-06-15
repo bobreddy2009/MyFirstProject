@@ -1,5 +1,40 @@
 
-"""countries = ["india","usa","canada","australia","south africa"]
+
+
+
+x = int(input("enter a number"))
+if len(str(x)) == 1:
+  print (f"{x} = {x}")
+else:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+#what is update. pros and cons (dictionary)
+##"countries = ["india","usa",#"canada","australia","south africa"]
 smallest_country = ""
 min_length = 100
 for i in countries:
@@ -35,7 +70,6 @@ for index, temp in enumerate(temperatures):
 print(f'The hottest country is {hot_country} and its temperature today is {max_temp}')
 print(f'The coldest country is {cold_country} and its temperature today is {cold_temp}')
 
-"""
 
 
 
@@ -48,11 +82,9 @@ print(f'The coldest country is {cold_country} and its temperature today is {cold
 
 
 
-
-
-"""countries = ["india","usa","canada","australia","south africa"]
-x = countries[0]
-y = len(x)
+#countries = ["india","usa","canada","australia","south africa"]
+#x = countries[0]
+#y = len(x)
 
 r = countries[1]
 i = len(r)
@@ -101,7 +133,6 @@ countries_list.sort()
 print(countries_list)
 
 
-"""
 
 #input = list of students and corresponding scores(5 physics,5 chemistry,5 math). print top scorer in each subject and lowest scorer in each sibject. and top scorer by average, and lowest scorer when averaged(do not use set)
 
@@ -237,9 +268,8 @@ for index, temp in enumerate(scores):
 print (f"{person_1} has the lowest average score")
 print (f"{person} has the highest average score")
 
-
 #pascal's triangle 
-"""x = int(input("how many lines of pascal's triangle"))
+x = int(input("how many lines of pascal's triangle"))
 a = '*' 
 b = " "
 for i in range(0,x):
@@ -282,15 +312,12 @@ while flag:
     break
   else:
     continue
-"""
-
-
 
 
 
 
 #Fizz buzz
-"""while True:
+while True:
   x = int(input("Enter a number: "))
   if x%3 == 0 and x%5 ==0:
     print ("FIZZ BUZZ")
@@ -420,5 +447,13 @@ x = int (input("enter a number:"))
 factorial = 1
 for y in range(2, x + 1):
   factorial *= y
-print (f"factorial of {x} is {factorial}")"""
+print (f"factorial of {x} is {factorial}")
 #on fan turn on off turn off until quit
+
+
+
+
+
+
+
+    
