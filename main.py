@@ -1,39 +1,66 @@
-
-
-
-
-x = int(input("enter a number"))
-if len(str(x)) == 1:
-  print (f"{x} = {x}")
+"""str = input("enter a string")
+if len(str) == 1:
+  print ("two characters PLEASE.")
 else:
+  y = str[::-1]
+  if y == str:
+    print ("palindrome")
+  else:
+    print ("not a palindrome")
+
+
+
+
+x = int(input("enteer a number less than 3999"))
+
+val =[1000, 900, 500, 400 ,100, 90, 50,40, 10, 9, 5, 4,1] 
+syb = ["M", "CM", "D", "CD","C", "XC", "L", "XL","X", "IX", "V", "IV","I"]
+roman_num = ''
+i = 0
+while x > 0:
+  for l in range(x // val[i]):
+    roman_num += syb[i]
+    x -= val[i]
+  i += 1
+print(roman_num)
+"""
 
 
 
 
 
+"""# input number and make roman numeral
+
+#https://www.math-only-math.com/rules-for-formation-of-roman-numerals.html
 
 
 
 
+#what is update. pros and cons (dictionary)
 
 
 
-
-
-
-
-
-
-
-
-
+"""
 
 
 
 
 
 """
-#what is update. pros and cons (dictionary)
+number = input("enter a number")
+if number.isdigit():
+  output = ''
+  length = len(number) - 1
+  count = length
+  for i in number:
+      if i != '0':
+        output += str(int(i) * 10 ** count) + ' + '
+  count = count - 1
+  print(f'{number} = {output[:-3]}')
+else:
+    print ("not an integer")
+
+
 ##"countries = ["india","usa",#"canada","australia","south africa"]
 smallest_country = ""
 min_length = 100
@@ -449,11 +476,4 @@ for y in range(2, x + 1):
   factorial *= y
 print (f"factorial of {x} is {factorial}")
 #on fan turn on off turn off until quit
-
-
-
-
-
-
-
-    
+"""
