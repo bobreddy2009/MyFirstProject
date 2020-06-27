@@ -1,3 +1,120 @@
+list_1 = [1,2,3,4,5,6,7,8,9,10]
+#list of numbers, return difference between highest and lowest value(range)
+max_list_1,min_list_1 = max(list_1),min(list_1)
+print (f"the range of this list is {max_list_1-min_list_1}")
+# add all the numbers in a list. if there is nine ignore it and the following one.
+
+
+def list_addition(list_1):
+  sums = 0
+  for index,addend in enumerate(list_1):
+    if list_1[index] == 9 or list_1[index - 1] == 9 and index - 1 != -1:
+      continue
+    else:
+      sums += addend
+  return sums
+print (f"the sum of the numbers in the list is {list_addition(list_1)}, ignoring 9 and the    following number")
+
+
+
+
+
+
+"""def count_mul3_and_mul5(l1):
+  multiple_3 = 0
+  multiple_5 = 0
+  for x in l1:
+    if x % 3 == 0:
+      multiple_3 += 1
+    elif x % 5 == 0:
+      multiple_5 += 1
+  return multiple_3 , multiple_5
+list1 = [1,3,5,15,9,10,21,25,30,45]
+
+print(f'Value of list1 is: {count_mul3_and_mul5(list1)}')
+"""
+"""
+def even (my_list):
+  count = 0
+  for i in my_list:
+    if i % 2 == 0:
+      count += 1
+
+
+def count_even_and_odd_numbers (l1):
+  x = []
+  y = []
+  for i in l1:
+    if i % 2 == 0:
+      x.append(i)
+    else:
+      y.append(i)
+  even = len(x)
+  odd = len(y)
+  return even,odd
+
+"""
+
+
+
+
+
+
+
+
+"""
+list1 = [2, 1, 2, 3, 4, 10]
+list2 = [2, 2, 0]
+list3 = [1, 3, 5, 2, 4, 6, 8, 14, 18]
+print(f'Value of list1 is: {count_even_and_odd_numbers(list1)}')
+print(f'Value of list2 is: {count_even_and_odd_numbers(list2)}')
+print(f'Value of list3 is: {count_even_and_odd_numbers(list3)}')
+
+
+
+"""
+
+
+
+"""
+def list_multiplication(a):
+  sums = 1
+  count = 0
+  for i in a:
+    if i != 0:
+      count += 1
+      sums *= i
+  if count == 0:
+    return 0   
+  else:
+    return sums
+
+
+list_2 = [0,0,0]
+
+print (list_multiplication(list_2))
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """str = input("enter a string")
 if len(str) == 1:
   print ("two characters PLEASE.")
