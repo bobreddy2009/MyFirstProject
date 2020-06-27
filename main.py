@@ -1,8 +1,9 @@
 list_1 = [1,2,3,4,5,6,7,8,9,10]
-#list of numbers, return difference between highest and lowest value(range)
+list_2 = [1,2,3,4,5,6,7,8,9,10]
+#in a list of numbers, return difference between highest and lowest value(range).
 max_list_1,min_list_1 = max(list_1),min(list_1)
 print (f"the range of this list is {max_list_1-min_list_1}")
-# add all the numbers in a list. if there is nine ignore it and the following one.
+# add all the numbers in a list. if there is nine ignore it and the following number.
 
 
 def list_addition(list_1):
@@ -13,7 +14,26 @@ def list_addition(list_1):
     else:
       sums += addend
   return sums
-print (f"the sum of the numbers in the list is {list_addition(list_1)}, ignoring 9 and the    following number")
+print (f"the sum of the numbers in the list is {list_addition(list_1)}, ignoring 9 and the following number")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
